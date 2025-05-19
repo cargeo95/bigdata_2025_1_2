@@ -5,7 +5,7 @@ import pandas as pd
 
 class DataBase:
     def __init__(self):
-        self.db_name = "src/edu_bigdata/static/db/minas_analisis.db"
+        self.db_name = "src/edu_bigdata/static/db/minas_analisis.sqlite"
         
         self.create_database()
     

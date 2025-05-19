@@ -19,9 +19,9 @@ jobs:
     - name: Paso 3: Crear un entorno virtual
       run: python -m new venv
     - name: Paso 4: Activar entorno virtual
-      uses: ./venv/Scripts/activate    
+      run: ./venv/Scripts/activate    
     - name: Paso 5: Ejecutar Script
-      uses: python hola.py    
+      run: python hola.py    
 
 
 

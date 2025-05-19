@@ -1,7 +1,7 @@
 name: Entregables
 
-on: 
-  pushs:
+on:
+  push:
     branches: [ main ]
 jobs:
   build:
@@ -10,18 +10,18 @@ jobs:
       contents: write
 
     steps:
-    - name: Paso 1: Checkout Repositorio
-      uses: actions/checkout@v4
-    - name: Paso 2: Checkout Repositorio
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.9.2'
-    - name: Paso 3: Crear un entorno virtual
-      run: python -m new venv
-    - name: Paso 4: Activar entorno virtual
-      run: ./venv/Scripts/activate    
-    - name: Paso 5: Ejecutar Script
-      run: python hola.py    
+      - name: Paso 1 - Checkout Repositorio
+        uses: actions/checkout@v4
+      - name: Paso 2: Checkout Repositorio
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9.2'
+      - name: Paso 3: Crear un entorno virtual
+        run: python -m new venv
+      - name: Paso 4: Activar entorno virtual
+        run: ./venv/Scripts/activate    
+      - name: Paso 5: Ejecutar Script
+        run: python hola.py    
 
       
 

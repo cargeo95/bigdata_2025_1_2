@@ -29,7 +29,7 @@ class DataWeb:
         else:
             raise ValueError("El DataFrame no ha sido creado.")
 
-    def exportar_csv(self, nombre_archivo="mineria_colombia.csv"):
+    def exportar_csv(self, nombre_archivo="data_web.csv"):
         if self.df is not None:
             self.df.to_csv(nombre_archivo, index=False, encoding='utf-8')
             print(f"Archivo exportado como {nombre_archivo}")

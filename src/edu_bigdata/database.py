@@ -6,8 +6,7 @@ import pandas as pd
 class DataBase:
     def __init__(self):
         self.db_name = "src/edu_bigdata/static/db/minas_analisis.sqlite"
-        
-        self.create_database()
+
     
     # def create_database(self):
     #     try:
@@ -37,7 +36,7 @@ class DataBase:
                 query= "select * from {}".format(nom_table)
                 df = pd.read_sql_query(sql=query,con=conn)
                 print("*************** consulta base datos tabla: {}*********".format(query))
-                conn.close
+                conn.close()
                 return df
         except Exception as errores:
             print("error al obtener los datos")

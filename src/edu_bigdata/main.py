@@ -10,7 +10,7 @@ def main():
     dw.convertir_numericos()
     dw.exportar_csv()
     dw.df.to_csv("src/edu_bigdata/static/csv/data_web.csv", index=False)
-    database.close_database()
+    
     
 
 if __name__ == "__main__":

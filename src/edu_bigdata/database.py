@@ -19,5 +19,3 @@ class DataBase:
             print("Error al crear la base de datos")
             # df.sql(self.conn, nom_tabla)
             
-    def close_database(self):
-        self.conn.close()

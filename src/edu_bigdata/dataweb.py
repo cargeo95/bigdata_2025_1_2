@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 
 class DataWeb:
-    def __init__(self, url="https://www.datos.gov.co/resource/sgp4-3e6k.json"):
+    def __init__(self, url="https://www.datos.gov.co/resource/sgp4-3e6k.json?$limit=1000000"):
         self.url = url
         self.data = None
         self.df = None

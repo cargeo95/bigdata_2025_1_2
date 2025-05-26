@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: edu_bigdata
-Version: 0.0.0
-Author-email: cargomez-95@hotmail.com
-Requires-Dist: pandas
-Requires-Dist: openpyxl
-Requires-Dist: requests
-Dynamic: author-email
-Dynamic: requires-dist

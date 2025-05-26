@@ -29,7 +29,7 @@ jobs:
       - name: Paso 8 - crear commit automatico
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Entrega de la actividad 2
+          commit_message: Entrega de la actividad 1
           commit_user_name: Carlos Arturo Gómez [GitHub Actions]
           commit_user_email: arturo.gomez@est.iudigital.edu.co
           commit_author: Carlos Arturo Gómez Jiménez <arturo.gomez@est.iudigital.edu.co>    

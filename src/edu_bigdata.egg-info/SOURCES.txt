@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/edu_bigdata/database.py
+src/edu_bigdata/dataweb.py
+src/edu_bigdata/main.py
+src/edu_bigdata.egg-info/PKG-INFO
+src/edu_bigdata.egg-info/SOURCES.txt
+src/edu_bigdata.egg-info/dependency_links.txt
+src/edu_bigdata.egg-info/requires.txt
+src/edu_bigdata.egg-info/top_level.txt
